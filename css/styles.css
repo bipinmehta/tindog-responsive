@@ -1,0 +1,172 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem 0 3rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.row {
+  margin-top: 5rem;
+}
+
+/* Download buttons */
+.btn {
+  margin: 1.35rem 0.5rem 0 0.2rem;
+}
+
+/* Title-image */
+.img1 {
+  width: 75%;
+  transform: rotate(20deg);
+  margin-top: 2rem;
+}
+
+#whol {
+  position: absolute;
+  top: 766px;
+}
+
+/* Features */
+
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+.prop {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.prop:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.paraa {
+  width: 82%;
+  margin: 1rem auto;
+  color: #8f8f8f;
+}
+
+/* Testimonials-section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+#press {
+  background-color: #ff4c68;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.btn-pad {
+  margin-top: 61.6px;
+  padding: 3% 25%;
+}
+
+.btn-mastiff {
+  padding: 3% 25%;
+}
+
+#cta {
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+#footer {
+  font-size: 0.75rem;
+  line-height: 4;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+.copyright {
+  /* margin-bottom: -1rem; */
+}
+
+@media (max-width: 992px) {
+  #whol {
+    position: static;
+  }
+
+  .img1 {
+    transform: rotate(0);
+  }
+  .row {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
